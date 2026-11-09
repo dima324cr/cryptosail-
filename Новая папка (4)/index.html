@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoSail — Твой старт в крипте</title>
+  <meta name="description" content="Начни зарабатывать на крипте без вложений. Проверенные площадки и пошаговые инструкции.">
+  
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="bg-glow"></div>
+
+  <header class="header">
+    <div class="container header-container">
+      
+      <!-- Логотип -->
+      <a href="#" class="logo">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 2L16 24" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M16 4C16 4 28 12 28 20H16V4Z" fill="url(#paint1_linear)"/>
+          <path d="M16 10C16 10 6 16 6 22H16V10Z" fill="url(#paint2_linear)" fill-opacity="0.6"/>
+          <path d="M6 26H26" stroke="url(#paint3_linear)" stroke-width="2" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="paint0_linear" x1="16" y1="2" x2="16" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+            <linearGradient id="paint1_linear" x1="16" y1="4" x2="28" y2="20" gradientUnits="userSpaceOnUse"><stop stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+            <linearGradient id="paint2_linear" x1="6" y1="10" x2="16" y2="22" gradientUnits="userSpaceOnUse"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+            <linearGradient id="paint3_linear" x1="6" y1="26" x2="26" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+          </defs>
+        </svg>
+        <span>CryptoSail</span>
+      </a>
+
+      <!-- Навигация -->
+      <nav class="nav">
+        
+        <!-- Кнопка языка -->
+        <button id="lang-toggle" class="theme-btn" style="width: 40px; font-weight: 600; font-size: 0.8rem;">
+          EN
+        </button>
+
+        <!-- Кнопка темы -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Переключить тему">
+          <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        
+        <!-- Ссылка Начать -->
+        <a href="#earn" id="nav-start">Начать</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="hero">
+      <h1 id="hero-title">Твой старт в <span class="gradient-text">крипте</span></h1>
+      <p id="hero-subtitle">Никаких вложений. Только проверенные площадки, где можно начать зарабатывать уже сегодня.</p>
+    </section>
+
+    <section class="earn-section" id="earn">
+      <h2 id="earn-title">Выбери площадку для старта</h2>
+      <p id="earn-subtitle">Зарегистрируйся по ссылкам ниже. Это бесплатно, безопасно и откроет тебе доступ к торговле и бонусам.</p>
+      
+      <div class="earn-buttons">
+        <a href="https://www.deriw.com/7ajnY" target="_blank" rel="noopener" class="earn-btn primary-btn">
+          <span id="btn-deriw">Начать торговать на DeriW</span>
+          <small id="btn-deriw-sub">Без KYC. Бонусы новичкам.</small>
+        </a>
+
+        <a href="https://www.bybit.com/ru-RU/register" target="_blank" rel="noopener" class="earn-btn">
+          <span id="btn-bybit">Регистрация на Bybit</span>
+          <small id="btn-bybit-sub">Крупнейшая биржа. Работает через VPN.</small>
+        </a>
+      </div>
+    </section>
+
+    <section class="features-grid">
+      <div class="feature-item">
+        <div class="feature-icon">💡</div>
+        <h3 id="feat1-title">Без вложений</h3>
+        <p id="feat1-desc">Для старта тебе не нужны деньги. Только время и желание разобраться.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🛡️</div>
+        <h3 id="feat2-title">Только проверенное</h3>
+        <p id="feat2-desc">Мы не даем ссылки на скам. Только площадки с реальными выплатами.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🚀</div>
+        <h3 id="feat3-title">Быстрый старт</h3>
+        <p id="feat3-desc">Регистрация занимает 2 минуты. Начать торговать можно сразу же.</p>
+      </div>
+    </section>
+
+    <p class="disclaimer" id="disclaimer">
+      Важно: никогда не вводи приватные ключи и не плати за «гарантированный доход». Это не финансовый совет.
+    </p>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 CryptoSail. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
